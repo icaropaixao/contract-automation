@@ -40,6 +40,7 @@ public class Program {
         int n = sc.nextInt();
 
 
+        
         ContractService contractService = new ContractService(new PaypalService());
 
         contractService.processContract(objContract,n);
